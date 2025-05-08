@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Vacancies</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Job Dashboard</h1>
-        <div class="chart-container">
-            <div id="experience-chart"></div>
-            <div id="hours-chart"></div>
-            <div id="schedule-chart"></div>
-        </div>
-    </div>
+  <h1>Job Vacancy Charts</h1>
 
-    <script src="script.js"></script>
+  <h2>Experience Required</h2>
+  <canvas id="experienceChart" width="400" height="200"></canvas>
+
+  <h2>Work Schedule</h2>
+  <canvas id="scheduleChart" width="400" height="200"></canvas>
+
+  <h2>Working Hours</h2>
+  <canvas id="workingHoursChart" width="400" height="200"></canvas>
+
+  <script src="script.js"></script>
 </body>
 </html>
